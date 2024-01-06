@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'email-form';
+  email : string = '';
+
+  constructor() {}
+
+  onSubmit() {
+    
+  }
 }
